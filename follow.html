@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html> 
+	<head> 
+			
+			<script type="text/javascript" src="jquery-3.6.1.js"> </script>
+			<script>
+				$(document).mousemove(function(e){
+					$("#image").stop().animate({left:e.pageX, top:e.pageY});
+				});
+			</script> 
+		<style>
+		#image{
+			position: absolute;
+		}
+		</style>
+	</head> 
+ 
+	<body> 
+		<img id="image" src="http://images.pictureshunt.com/pics/m/mouse-8557.JPG"/>
+	</body> 
+</html> 
