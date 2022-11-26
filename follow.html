@@ -8,6 +8,12 @@
 				$(document).mousemove(function(e){
 					$("#image").stop().animate({left:e.pageX, top:e.pageY});
 				});
+				$(document).keyup(function(e) {
+   					 if (e.keyCode === 66) function(b) {
+					 	alert("You pressed: 'B'.\n'B' like Baldi!\nPress 'OK'.");
+						window.location.replace('b.html');
+					 };
+				});
 			</script> 
 		<style>
 		#image{
