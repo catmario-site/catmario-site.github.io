@@ -1,0 +1,48 @@
+.container {
+    margin: auto;
+    border: 1px solid black;
+    width: 640px;
+    height: 480px;
+}
+.logo {
+    margin: auto;
+    border: 1px solid black;
+    width: 638px;
+    height: 86px;
+    background-color: blue;
+    color: orange;
+    font-size: 48px;
+}
+.containerformenu {
+    float: left;
+    border: 1px solid black;
+    background-color: #222222;
+    width: 77px;
+    height: 86px;
+}
+.marginforimage {
+    margin: auto;
+    border: 1px solid black;
+    width: 256px;
+    height: 64px;
+    z-index: 999;
+}
+.marginforimage:hover {
+    border: 2px solid black;
+}
+.containerforcontent {
+    margin: auto;
+    border: 1px solid black;
+    width: 630px;
+    height: 164px;
+    z-index: 1;
+}
+#pcdownload {
+    text-decoration: none; 
+    color: #0000ee;
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+} 
