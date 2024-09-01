@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html> 
+	<head> <title>catmario-site</title>
+			
+			<script type="text/javascript" src="res/jquery-3.6.1.js"> </script>
+			<script>
+			$(document).mousemove(function(e){
+   				 $("#image").stop().animate({left:e.pageX, top:e.pageY});
+			});
+			</script> 
+		<style>
+		#image{
+			position: absolute;
+		}
+		</style>
+	</head> 
+ 
+	<body> https://catmario-site.github.io/
+		<img id="image" src="res/image/syo.bmp" width="50px" height="50px" alt="Player"/>
+	</body> 
+</html> 

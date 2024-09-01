@@ -1,0 +1,82 @@
+.container {
+    margin: auto;
+    border: 1px solid black;
+    width: 640px;
+    height: 512px;
+    background-image: url("image/tile.png");
+}
+.logo {
+    margin: auto;
+    border: 1px solid black;
+    width: 639px;
+    height: 86px;
+    background-color: blue;
+    color: orange;
+    font-size: 40px;
+    font-family: monospace;
+}
+.containerformenu {
+    float: left;
+    border: 1px solid black;
+    background-color: #222222;
+    width: 77px;
+    height: 86px;
+}
+.containerformenu a {
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 18px;
+}
+.containerformenu a:hover {
+    color: orange;
+    font-style: italic;
+}
+.marginforimage {
+    margin: auto;
+    border: 3px solid green;
+    width: 256px;
+    height: 64px;
+    z-index: 999;
+}
+.marginforimage:hover {
+    border: 3px solid black;
+}
+.containerforcontent {
+    margin: auto;
+    margin-top: -20px;
+    border: 1px solid black;
+    width: 630px;
+    height: 164px;
+    z-index: 1;
+    background-color: white;
+    font-family: monospace;
+}
+#pcdownload {
+    text-decoration: none; 
+    color: orange;
+    font-family: monospace;
+    background-color: black;
+    font-size: 16px;
+}
+.textsection {
+    font-family: monospace;
+    padding: 10px;
+}
+.contenttitle {
+    font-family: monospace;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.contenttitle_small {
+    font-family: monospace;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;    
+    margin-bottom: 50px;
+}
